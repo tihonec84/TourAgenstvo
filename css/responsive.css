@@ -1,0 +1,130 @@
+
+
+@media screen and (max-width:768px){
+  .socialIcon{
+   text-align: center;
+  }
+  .header-section-top-adress,
+  .header-section-top-contacts{
+    padding-top:1%;
+    text-align:center;
+  }
+  .header-section-bottom {
+    padding-top:0;
+  }
+  
+  .header-section-top-socialIcon__item{
+    padding:1% 0;
+  }
+  .header-section-top-adress,
+  .header-section-top-contacts{
+    padding:2% 0;
+  }
+  .header-section-bottom-text{
+    margin-top: 0;
+  }
+  .text_h1{
+    font-size: 40px;
+  }
+  .select-country-block-flags{
+    position:relative;
+  }
+  .select-country{
+    margin:0;
+    padding:0;
+  }
+  .flags_column ul li>*{
+    font-size: 10px;
+  }
+  .services-heading h1:before, .about-of-company h1:before{
+   content:none;
+  }
+  .services-heading h1:after, .about-of-company h1:after{
+    content:none;
+  }
+  .select-country-block-flags span{
+   position: absolute;
+   top: 12%;
+   left: 8%;
+  }
+  .to-application-form button {
+    content:none; 
+  }
+  .services-item {
+    padding: 3% 0;
+  }
+  .to-application-form form {
+    margin-top: 5%;
+  }
+  .to-application-form button {
+    width: 85%;
+  }
+ /* .footer-menu-list:nth-child(2){
+    height:186px;
+  }*/
+  
+}
+@media screen and (min-width:768px) and (max-width:991px){
+  .header-section-top-logo__img img {
+   width: 157.5px;
+  }
+  .header-section-top-logo__title {
+   font-size: 13px;
+   /*height: 38px;
+   padding-left: 6%;*/
+  }
+  .header-section-top-socialIcon__item {
+    padding: 10% 0;
+  }
+  .header-section-top-contacts__email a {
+    padding-top: 3%;
+  }
+  .header-section-top-contacts__number {
+    font-size: 18px;
+  }
+   .header-section-top-adress, .header-section-top-contacts {
+    padding-top: 1%;
+    text-align:left;
+  }
+ 
+}
+
+@media screen and (max-width:991px){
+  #menu{
+   display: none;
+  }
+  .slicknav_menu{
+    display: block;
+  }
+ .select-country-block-flags{
+    position:relative;
+  }
+  .select-country {
+    padding-bottom: 0;
+  }
+}
+
+
+@media screen and (max-width:991px){
+  .footer-menu-list{
+    text-align: center;
+  }
+
+}
+@media screen and (max-width:1024px){
+  .services-heading h1:before, .about-of-company h1:before{
+    width: 33%; 
+  }
+  .services-heading h1:after, .about-of-company h1:after{
+    width: 33%; 
+  }
+ 
+}
+@media screen and (min-width:1024px){
+  
+  .to-application-form button {
+    width: 60%;   
+  }
+}
+
+}

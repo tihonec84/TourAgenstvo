@@ -1,0 +1,654 @@
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+a {
+	display:block;
+	text-decoration: none;
+    cursor:pointer;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.header-section-top{
+	padding-top:1%;
+	padding-bottom: 1%;
+}
+.header-section-top-logo__img{
+ /*height: 38px;
+ padding-left: 6%;*/
+}
+.header-section-top-logo__img img{
+	/*width: 100%;
+	height:100%;*/
+}
+.header-section-top-logo__title{
+	color:#8b8b8b;
+    font-size: 14px;
+
+}
+.header-section-top-socialIcon{
+ padding-top: 1%;
+}
+.wrapper-top-adress{
+ padding:1% 0;
+}
+.header-section-top-socialIcon__item ul li{
+ display:inline-block;
+ padding: 3% 2%;
+}
+.header-section-top-socialIcon__item a{
+ color:#8b8b8b;
+ height:100%;
+}
+.socialIcon{
+ /*text-align: center;*/
+}
+.socialIcon a:hover{
+ color:#6da9df;
+
+}
+.header-section-top-adress,
+.header-section-top-contacts
+{
+/*	padding-top:1%;*/
+	/*text-align:center;*/
+}
+ .header-section-top-adress.text{
+ font-size: 18px;
+}
+.header-section-top-contacts__number{
+ font-size: 27px;
+ /*letter-spacing: 2px;*/
+ font-weight: bold;
+ font-family: Extra-Bold,sans-serif;
+}
+.header-section-top-adress p:nth-child(2){
+  padding-top:1%;	
+}
+.header-section-top-contacts__email a{
+	padding-top:2%;
+	color:#000;
+	font-weight: 600;
+    font-size: 15px;
+}
+.header-section-top-button_to-aplication {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 180px;
+    height: 45px;
+    padding: 6px 10px;
+    border: none;
+    outline: none;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #60a3b7;
+    color: #ffff;
+    font-weight: 100;
+}
+.header-section-bottom{
+	height:600px;
+	/*padding-top: 40px;*/
+	background-image:url(../img/Thailand_14-2-Ko-Yao-Yai-1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+
+}
+
+/*****************/
+.header-section-bottom-descktopMenu{
+	/*margin-top: 15px;*/
+	padding-top: 30px
+}
+.slicknav_menu{
+  display: none;
+ }
+.header-section-bottom-descktopMenu ul li{
+	position:relative;
+	padding: 0 1%;
+	text-transform:uppercase;
+	display: inline-block;
+	font-size: 16px;
+	/*font-weight:bold;*/
+}
+
+.header-section-bottom-descktopMenu li a{
+ color:#fff;
+ font-family: 'Open Sans', sans-serif;
+}
+.header-section-bottom-descktopMenu a:hover{
+ color:#000080;
+ text-decoration:none;
+}
+.header-section-bottom-descktopMenu .submenu>li{
+ display: block;
+ /* height: 30px; */
+ background-color: #eee8e8;
+ /* border-radius: 1px; */
+ border: 1px solid #f5f5f5;
+ padding: 3% 3%;
+}
+.header-section-bottom-descktopMenu .submenu>li>a{
+ color: #040818;
+ padding: 7% 0;
+ height: 100%;
+}
+.header-section-bottom-descktopMenu .submenu>li>a:hover{
+ color:#ffff;
+}
+.header-section-bottom-descktopMenu .submenu{
+ position: absolute;
+ top: 19px;
+/* left: 10px; */
+ width: 184px;
+ display: none;
+ -webkit-border-radius: 2px;
+ border-radius: 2px;
+ border-radius: 2px;
+ padding: 2% 2%;
+  z-index: 100;
+}
+.header-section-bottom-descktopMenu li:hover .submenu{
+ display:block;
+}
+.submenu>li:hover {
+ background: #74c0e9;
+}
+.header-section-bottom-text{
+ margin-top:140px;
+}
+.header-section-bottom-text>*{
+  color:#fff;
+  text-align: center;
+}
+.text_h1{
+ font-size:55px;
+ font-weight: bold;
+}
+.text_h2{
+ font-size: 28px;
+ padding: 7% 0;
+ line-height: 43px;
+	
+}
+/* Main*/
+.offers{
+ padding-top: 30px;
+}
+.offers-type-rest h3{
+ font-size: 34px;
+ font-weight: bold;
+ text-align: justify;
+ padding: 20px 0;
+/* letter-spacing: 5px;	*/
+}
+.offers-type-rest p{
+  padding: 15px 0;
+  text-align:justify;
+  line-height: 29px;
+  font-size: 14px;	
+}
+/*.offers-type-rest__picture{
+ 
+}*/
+.offers-picture_item{
+ width: 100%;
+ height: 180px;
+ margin-bottom: 15px;
+ position:relative;
+}
+.offers-picture_item-link{
+ height:100%;
+}
+.offers-picture_item img{
+ width: 100%;
+ height:100%
+}
+.offers-picture_item-title-rest{
+ width:100%;
+ height: 32px;
+ position:absolute;
+ bottom:0;
+ left:0;	
+}
+/*.offers-picture_item-title-rest>*{
+ display: inline-block;
+}*/
+.title-rest_item {
+ width: 100%;
+ height: 100%;
+ padding: 7px 0 5px 35px;
+ /*background-color: #61a3b7;*/
+ position: relative;
+ -webkit-text-decoration-line: none;
+ text-decoration-line: none;
+}
+.title-rest_item a{
+ color:#ffff;
+ text-decoration: none;
+ font-size: 16px;
+}
+.title-rest_link-arrow{
+ position: absolute;
+  bottom: 0;
+  right: 0;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  width: 17%;
+  height: 100%;
+  background-color:#00000017;
+  padding-top: 6px;
+}
+.title-rest_link-text:hover{
+ color:#000080;
+}
+.title-rest_link-arrow:hover{
+ background-color:#00000030;
+  color:#000080;
+}
+.color_blue{
+ background-color: #61a3b7;
+}
+.color_rose{
+ background-color: #b04781;
+}
+.color_green{
+ background-color: #66b56d;
+}
+.color_yellow{
+ background-color: #ecae29;
+}
+
+.select-country{
+ margin-top:40px;
+ padding-bottom: 180px;
+}
+.wrapper-select-country{
+ position:relative; 
+}
+
+.select-country_image img{
+	width:100%;
+}
+.select-country-block-flags{
+	padding-bottom: 1%;
+    position: absolute;
+    /* width: 60%; */
+    /* height: 450px; */
+    background-color: #ffff;
+    z-index: 10;
+    right: 0%;
+    top: 38%;
+    -webkit-box-shadow: 0px 12px 12px rgba(17, 17, 17, 0.25),
+   0px 0px 12px rgba(17, 17, 17, 0.25);
+    box-shadow: 10px 4px 62px rgba(248, 243, 243, 0.43),
+    12px 14px 69px rgba(209, 204, 204, 0.75);
+}
+.select-country-block-flags h3{
+ position:relative;
+}
+.select-country-block-flags span{
+  position: absolute;
+  top: 13%;
+  left: 3%
+}
+.flags_column:nth-child(2){
+ padding-left:0;
+}
+.flags_column ul li{
+ padding: 10px 0;
+}
+.flags_column ul li>*{
+ display:inline-block;
+ vertical-align: middle;
+
+}
+.flags_column a{
+ color:#000;
+ -webkit-text-decoration-line:none;
+ text-decoration-line:none;
+}
+.flags_column a:hover{
+	font-weight: bold;
+	color:#12589f;
+}
+.select-country-block-flags h3{
+ font-size: 32px;
+ font-weight: bold;
+ padding: 20px 0;
+ padding-left: 10px;
+}
+/*Services*/
+.services{
+margin-top:5%;
+}
+.wrapper-services{
+ position: relative;
+}
+.about-of-company{
+ margin-top:40px;
+}
+.wrapper-about-of-company{
+ position:relative;
+}
+.services-heading h1,
+.about-of-company h1{
+ /*position:relative;*/
+ text-transform: uppercase;
+ color:#1692cc;
+ font-weight:bold;
+ text-align:center;
+ /*width:30%;*/
+ margin:0 auto;
+}
+.services-heading h1:before,
+.about-of-company h1:before{
+   position: absolute;
+   content: "";
+   background-color: #1692cc;
+   height: 2px;
+   width: 38%;
+    top: 14px;
+    left: 0%;
+}
+.services-heading h1:after,
+.about-of-company h1:after{
+  position: absolute;
+   content: "";
+   background-color: #1692cc;
+   height: 2px;
+   width: 38%;
+   top: 14px;
+   right: 0%;
+}
+.services-items,
+.about-of-company{
+ margin-top: 5%;
+}
+
+.services_item__img{
+ width:200px;
+ height:200px;
+ -webkit-border-radius: 100%;
+ border-radius:50%;
+ /*overflow: hidden;*/
+ margin: 0 auto;
+ position:relative;
+}
+.services_item__img img{
+ display:block;
+ width: 200px;
+ height: 200px;
+ -webkit-border-radius: 50%;
+ border-radius: 50%;
+}
+.services_item-link-hover{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ padding: 50% 0;
+ -webkit-border-radius: 50%;
+ border-radius: 50%;
+ top: 0;
+ left: 0;
+ background-color: #1692cc;
+ opacity: 0.85;
+ -webkit-text-decoration-style: none;
+ display:none;
+ font-size: 16px;
+ font-weight:400;
+ -webkit-text-decoration-style: none;
+  text-decoration:none;
+  text-align: center;
+}
+.services-item {
+ text-align:center;
+}
+.services_item__img:hover .services_item-link-hover{
+ padding: 45% 0;
+ display:block;
+ -webkit-text-decoration-line:none;
+ text-decoration-line:none;
+ color: #ffffff;
+ font-weight: 100;
+}
+.services-item h3{
+ padding:15px 0;	
+ color:#1692cc;
+ text-align: center;
+}
+.services_item-link-title{
+
+}
+.services_item-link-title:hover{
+ color:#51d0ee;
+ text-decoration: none;
+}
+.services-item p {
+ text-align:center;
+ line-height: 21px
+}
+/*About-of-company*/
+.about-of-company_image{
+ /*width:450px;
+ height:450px;*/
+ width:100%;
+ height:100%; 
+ margin:0 auto;
+}
+.about-of-company_image img{
+ width:100%;
+ height:100%; 
+}
+.about-of-company-text p{
+ padding-top: 4%;
+ text-align: left;
+ line-height: 24px;
+ font-size: 14px;
+}
+/* to-application*/
+.to-application{
+ margin-top:40px;
+ background-image:url(../img/Zoetry-Agua-Punta-Cana-5-11.jpg);
+ -webkit-background-size:100%;
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+.wrapper-to-application{
+ padding: 8% 0;
+}
+.to-application-text{
+ padding:1% 0;
+}
+.to-application-text h1,h2{
+ color:#ffff;
+ margin: 0;
+}
+.to-application-form form{
+ position:relative;
+ padding: 5% 5%;
+ border:2px solid grey;
+ background-color:#ffff;
+ height:400px;
+}
+.to-application-form label{
+ color:#686868;
+ padding: 1% 0;
+ padding-left: 11%;
+}
+.to-application-form form>*{
+ display: block;
+ outline:none;
+ border:none;
+}
+.to-application-form input{
+ margin:0 auto;
+ margin-bottom: 2%;
+ width:80%;
+ height:45px;
+ padding-left:15px;
+ border:1px solid #cacaca;
+ background-color: transparent;
+}
+.to-application-form button{
+ height: 55px;
+ width: 60%;
+ background-color: #424242;
+ color: #ffff;
+ text-transform: uppercase;
+ position: absolute;
+ right: 0;
+ bottom: 0;
+}
+.to-application-form button:hover{
+ color:#73838e;
+ background-color: #112533;
+}
+.triangle-topleft{
+ position: absolute;
+ bottom:0;
+ left:0;
+ width:0;
+ height:0;
+ border-top: 55px solid #ffff;
+ border-right: 28px solid transparent;
+}
+/*footer*/
+footer{
+ padding: 40px 0; 
+ background-color:#4694ca;
+ color:#ffff;
+}
+.footer-menu-list a,
+.footer-contacts__email a{
+ color:#ffff;
+ -webkit-text-decoration-line:none;
+ text-decoration-line:none;
+}
+.footer-menu-list a:hover{
+ color:#072c46;
+}
+.footer-menu-list ul li,
+.footer-menu-phone p,
+.footer-menu-adress p{
+	padding:5px 0;
+	
+}
+.footer-menu-phone p,
+.footer-menu-adress p{
+ text-align: center;
+}
+.footer-social-icon{
+ margin-top:25px;
+}
+.footer-social-icon .socialIcon{
+ text-align:center;
+}
+.footer-social-icon .fa{
+ font-size: 21px;
+} 
+.social-icon-round-block{
+ width: 30px;
+ height: 30px;
+ padding: 4px 0;
+ margin: 0 2px;
+ display: inline-block;
+ text-align: center;
+ -webkit-border-radius: 50%;
+ border-radius: 50%;
+ background: #ffff;
+}
+.social-icon-round-block:hover{
+ background-color:#fdc00ee3; 
+}
+.social-icon-round-block:hover a{
+ color:#ffff; 
+}
+
+/* Castom style mobile menu*/
+.slicknav_menu {
+ position: absolute;
+ width: 100%;
+ top: 78px;
+ left: 0;
+ z-index: 1000;	
+ font-size: 16px;
+ background: #08577f;
+ padding: 0px;
+ /*-webkit-border-radius: 10px;
+ border-radius: 10px;*/
+}
+.slicknav_nav .slicknav_row:hover {
+ background: #85c8cf69;
+}
+.slicknav_nav  a{
+ font-size: 14px
+}
+/*.slicknav_btn {
+ background:none;
+ position: absolute;
+ top: 4%;
+ right: 5px;
+ padding: 0;
+}*/
+.slicknav_btn{
+  position: absolute;
+  right: 20px;
+  top: -64px;
+  background-color: #ffff;
+}
+.slicknav_menu .slicknav_icon-bar {
+  background-color:#08577f;
+}
+.openmenu :nth-child(1){
+ -webkit-transform: rotate(45deg);
+ -ms-transform: rotate(45deg);
+ transform: rotate(45deg);
+ background:#08577f;
+ -webkit-transition: 0.3s all;;
+ -o-transition: 0.3s all;;
+ transition: 0.3s all;
+ bottom: -5px;
+ position: relative;
+}
+.openmenu :nth-child(2){
+ display: none;
+}
+.openmenu :nth-child(3){
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  /*position: relative;
+  top: -5px;*/
+  -webkit-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+ background-color:#08577f;
+}
+.slicknav_nav ul {
+ margin: 0 ; 
+}
+.slicknav_nav a:hover{
+-webkit-border-radius: 0; 
+ border-radius: 0;   
+}
+.slicknav_nav .slicknav_row {
+  padding: 7px 20px;
+  margin: 5px 0px;
+}
+.slicknav_nav .slicknav_row:hover {
+  -webkit-border-radius: 0;
+  border-radius:0; 
+}
+.slicknav_nav .slicknav_arrow {
+    font-size: 1.3em;
+    position: absolute;
+    right: 5%;
+}
